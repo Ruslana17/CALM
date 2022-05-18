@@ -64,30 +64,40 @@ margin-left: -4%;
     background-color: #eeededc1;;
 }
 
-.child_1{
-    display: flex;
-    height: 553px;
-    width: 507px;
-    background-color: aquamarine;
-    flex-wrap: wrap;
-}
 
 .main__block__parent_1{
     display: flex;
     width: 50.5%;
-    height: 1194px;
+    min-height: 1194px;
     background-color: rgba(144, 144, 199, 0.608);
     margin: auto;
     flex-wrap: wrap;
+    align-items: flex-start;
+    align-content:flex-start;
 }
+
+.child_1{
+    display: flex;
+   height: 553px;
+    width: 507px;
+    background: #FFFFFF;
+border: 1px solid #F8F8F8;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
+border-radius: 0 0 10px 10px;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    margin-bottom: 1%;
+}
+
+
 .child_1__mountains{
     width: 100%;
-    height: 51.5%;
+   /* min-height: 53%;*/
 }
 
 .child_1__mountains__text{
     display: flex;
-    padding: 0% 3%;
+    padding: 0 3%;
     justify-content: center;
     flex-flow: column;
 }
@@ -103,8 +113,8 @@ margin-left: -4%;
     color: #353732;
 }
 .travel__header {
-    padding: 0%;
-    margin: 1% 0%;
+    padding: 0;
+    margin: 1% 0;
     font-family: 'Palatino Linotype';
     font-weight: 400;
     font-size: 25px;
@@ -135,37 +145,32 @@ margin-left: -4%;
     flex-flow: column;
     Width: 245px;/*31.8%*/
     height: 258px;/*23.8%;*/
-    background-color: #a3b5c2;
+    background: #FFFFFF;
+border: 1px solid #F8F8F8;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
+border-radius: 0 0 10px 10px;
     margin-left: 1%;
+   /* flex-grow: 1;*/
 }
 
 .main__block__parent__child_2__rock-climbing{
-    Width:243px;
-   /* Height:137px;*/
+    Width:100%;
+   Height:100%;
 }
 
-
-
-
-.main__block__parent__child_3{
-    display: flex;
-    flex-flow: column;
-    margin-top: 55px;
-    /*width: 245px;
-    height: 279px;*/
-    background-color: rgb(108, 184, 88);
-}
 .main__block__parent__child_2__text{
     display: flex;
-    padding: 0% 3%;
+    padding: 0 3%;
     justify-content: center;
     flex-flow: column;
 }
 
+
+
 .Exercise{
     font-family: 'Poppins';
-    padding: 0%;
-    margin: 0% 0% 1% 0%;
+    padding: 0;
+    margin: 3% 0 1% 0;
 font-weight: 400;
 font-size: 12px;
 line-height: 12px;
@@ -176,8 +181,8 @@ color: #353732;
 
 .Exercise__climbing{
     font-family: 'Palatino Linotype';
-    padding: 0%;
-    margin: 1% 0%;
+    padding: 1% 0;
+    margin: 1% 0;
 font-weight: 400;
 font-size: 16px;
 line-height: 22px;
@@ -186,10 +191,93 @@ color: #45525B;
 
 .Exercise__climbing__Date{
     font-family: 'Georgia';
-    margin: 14% 0% 1% 0%;
+    margin: 15% 0% 1% 0%;
 font-weight: 400;
 font-size: 11px;
 line-height: 17px;
 color: #45525B;
 
+}
+
+.main__block__parent__child_3{
+    display: flex;
+    flex-flow: column;
+    margin-top: 55px;
+    max-width: 245px;
+    min-height: 256px;
+    background: #FFFFFF;
+border: 1px solid #F8F8F8;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
+border-radius: 0 0 10px 10px;
+   
+}
+
+.main__block__parent__child_3__text, .main__block__parent_2__child_1__text, .main__block__parent_2__child_2__text{
+    display: flex;
+    padding: 0 3%;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.Tech, .main__block__parent_2__child_1_teach, .main__block__parent_2__child_2__tutorial{
+   font-family: 'Poppins';
+   padding: 0;
+    margin: 3% 0 1% 0;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #353732; 
+}
+
+.Tech__2, .main__block__parent_2__child_1_teach__Drone, .main__block__parent_2__child_2__tutorial_2{
+    font-family: 'Palatino Linotype';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 110%;
+    padding: 0;
+    margin: 3% 0 1% 0;
+    color: #45525B;
+}
+
+.Tech__Date, .main__block__parent_2__child_1_teach__Drone__Date, .main__block__parent_2__child_2_date{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    padding: 0;
+    margin: 7% 0 1% 0;
+    color: #45525B;
+}
+
+
+
+.main__block__parent_2{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.main__block__parent_2__child_1, .main__block__parent_2__child_2{
+    display: flex;
+    width: 50%;
+    height:30%;
+    flex-wrap: wrap;
+    flex-flow: column;
+    background-color: #FFFFFF;
+border: 1px solid #F8F8F8;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
+border-radius: 0 0 10px 10px;
+}
+
+.main__block__parent_2__child_1__photo, .main__block__parent_2__child_2__photo{
+    width:100%;
+    height:100%;
 }
