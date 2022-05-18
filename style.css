@@ -12,9 +12,27 @@ a{
     color: black;
 }
 
+@media  (max-width: 1200px){
+    .main__block__parent_1{
+        min-width: 69.1%;
+    }
+    
+}
 @media  (max-width: 900px){
     .main__block__parent_1{
         min-width: 79.1%;
+    }
+    
+}
+@media  (max-width: 600px){
+    .main__block__parent_1{
+        min-width: 79.1%;
+    }
+    
+}
+@media  (max-width: 400px){
+    .main__block__parent_1{
+        min-width: 100%;
     }
     
 }
