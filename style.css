@@ -86,7 +86,7 @@ margin-left: -4%;
     max-width: 100%;
     min-height: 1392px;
     margin-top: 113px;
-    background-color: #eeededc1;;
+   background-color: #eeededc1;
 }
 
 
@@ -95,7 +95,7 @@ margin-left: -4%;
     display: flex;
     max-width: 50.1%;
     min-height: 1194px;
-    background-color: rgba(144, 144, 199, 0.608);
+  /*  background-color: rgba(144, 144, 199, 0.608);*/
     margin:auto;
     flex-wrap: wrap;
     align-items: flex-start;
