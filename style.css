@@ -15,6 +15,9 @@ a{
 @media  (max-width: 1200px){
     .main__block__parent_1{
         min-width: 69.1%;
+    }.block-form__main{
+        max-width: 87%;
+     min-height: 50%;
     }
     
 }
@@ -22,11 +25,18 @@ a{
     .main__block__parent_1{
         min-width: 79.1%;
     }
-    
+    .block-form__main{
+        max-width: 100%;
+        min-height: 100%;
+    }  
 }
 @media  (max-width: 600px){
     .main__block__parent_1{
         min-width: 79.1%;
+    }
+    .block-form__main{
+        max-width: 100%;
+        min-height: 100%;
     }
     
 }
@@ -34,7 +44,10 @@ a{
     .main__block__parent_1{
         min-width: 100%;
     }
-    
+    .block-form__main{
+        max-width: 100%;
+        min-height: 100%;
+    }
 }
 
 .head__name{
@@ -315,4 +328,85 @@ border-radius: 0 0 10px 10px;
 .main__block__parent_2__child_1__photo, .main__block__parent_2__child_2__photo{
     width:100%;
     height:100%;
+}
+
+
+
+.block-form{
+    display: flex;
+    width: 100%;
+    height: 387px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block-form__main{
+    display: flex;
+    min-width: 60%;
+   max-height: 187px;
+   
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block-form__main__text{
+    display: flex;
+    max-width: 376px;
+    min-height: 187px;
+    flex-direction: column;
+    
+}
+.block-form__main__text h2 {
+    font-family: 'Palatino Linotype';
+    font-weight: 400;
+ font-size: 28px;
+ line-height: 38px;
+ color: #353732;
+ margin-bottom: 2%;
+}
+.block-form__main__text  p{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #353732;
+
+}
+
+#block-form__main__input{
+    display: flex;
+    Width: 375.6px;
+    Height: 187.82px;
+    flex-direction: column;
+}
+#block-form__main__input h6{
+    font-family: 'Georgia';
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: #353732;
+margin:4% 0 2% 0;
+
+}
+
+#input__name, #input__email{
+    height: 38px;
+    background: rgba(82, 80, 59, 0.02);
+border: 1px solid #E5E7EB;
+border-radius: 8px;
+font-family:'Georgia' ;
+color: #353732;
+}
+#input__submit{
+    color: #e1e4e7;
+    Width:80px;
+    Height:50px;
+    background: #353732;
+    border-radius: 6px;
+ margin-top: 3%
+}
+#input__submit:hover{
+    background-color: #646660;
 }
